@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/mine/mine",
+    "pages/dary/add/add",
+    "pages/dary/detail/detail",
+    "pages/dary/edit/edit",
+    "pages/user/login/login",
+    "pages/user/no_login/no_login",
+    "pages/user/goodLike/goodLike"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "日记",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#2c8e1a",
+    "selectedColor": "#f67d05",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/tabbar/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index-select.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/tabbar/mine/mine",
+        "iconPath": "static/mine.png",
+        "selectedIconPath": "static/my-select.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
